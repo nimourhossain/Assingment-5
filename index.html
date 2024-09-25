@@ -44,6 +44,12 @@
             .nav-bg{
                 background-color: rgba(249, 247, 243, 0.137);
             }
+            .card-style{
+                box-sizing: border-box;
+                border: 1px solid rgba(17, 17, 17, 0.1);
+                border-radius: 16px;
+                background: rgb(255, 255, 255);
+            }
         </style>
 </head>
 <body class="lexend-font">
@@ -79,6 +85,56 @@
             </div>
 
     </header>
+
+    <main class="container px-6  mx-auto overflow-hidden">
+
+        <section id="donate-section" class>
+
+            <div
+                    class="card lg:card-side shadow-xl p-8 card-style mb-8">
+                    <figure class="lg:w-2/4">
+                        <img class="w-full h-auto"
+                            src="./assets/noakhali.png"
+                            alt="the flood in Noakhli" />
+                    </figure>
+                    <div class="card-body p-0 md:pl-8 lg:w-2/4">
+                        <div
+                            class="flex justify-center space-x-2 w-36 rounded-lg p-3 bg-[#1111110D] mb-4 mt-8 lg:mt-5">
+                            <img src="./assets/coin.png" alt>
+                            <p class="text-gray"><span
+                                    id="donate-result-show-noakhli">0</span>
+                                BDT</p>
+                        </div>
+                        <h2 id="noakhaliTitle" class="card-title">Donate for
+                            Flood at Noakhali, Bangladesh</h2>
+                        <p class="text-gray font-light leading-7"> The recent
+                            floods in Feni have devastated local communities,
+                            leading to severe disruption and loss. Your generous
+                            donation will help provide immediate aid, including
+                            food, clean water, and medical supplies, to those
+                            affected by this calamity. Together, we can offer
+                            crucial support and help rebuild lives in the
+                            aftermath of this disaster. Every contribution
+                            counts towards making a real difference. Please
+                            consider donating today to assist those in urgent
+                            need.</p>
+                        <div class="my-8">
+                            <input type="text" id="input-noakhali"
+                                placeholder="Write Donation Amount"
+                                class="input input-bordered w-full " />
+                        </div>
+                        <div class="card-actions justify-center">
+                            <button
+                                id="donate-btn-noakhali"
+                                class="w-full btn-color px-8 py-4">Donate
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+    </main>
     
 </body>
 </html>
