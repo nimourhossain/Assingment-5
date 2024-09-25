@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donate Bangladesh</title>
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+            rel="stylesheet">
+        
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .lexend-font {
+                font-family: "Lexend", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+            .btn-color{
+                background-color: #B4F461;
+                color: #111111;
+                font-size: 20px;
+                font-weight: 600;
+                border-radius: .5rem;
+            }
+            .text-dark{
+                color: #111111;
+            }
+            .text-gray{
+                color: rgba(17, 17, 17, 0.7);
+            }
+            .nav-bg{
+                background-color: rgb(249, 247, 243);
+            }
+            .card-style{
+                box-sizing: border-box;
+                border: 1px solid rgba(17, 17, 17, 0.1);
+                border-radius: 16px;
+                background: rgb(255, 255, 255);
+            }
+        </style>
+
+    </head>
+    <body class="lexend-font">
+        <header class="container mb-10 sticky top-0 nav-bg mx-auto z-50">
+            <nav
+                class="flex justify-around md:justify-between items-center px-6 py-7">
+                <div class>
+                    <button
+                        id="home-btn" class=" px-8 py-3 btn-color">Home</button>
+                </div>
+                <div
+                    class="hidden md:flex justify-center items-center space-x-3">
+                    <img class src="./assets/logo.png" alt>
+                    <p class=" text-xl text-dark font-semibold">Donate
+                        Bangladesh</p>
+                </div>
+                <div class="flex justify-center items-center space-x-3">
+                    <img class src="./assets/coin.png" alt>
+                    <p class="text-gray text-xl font-medium">5500 BDT</p>
+                </div>
+            </nav>
+        </header>
+        <main class="container px-6  mx-auto overflow-hidden">
+            <section>
+                <h1 class="text-4xl font-extrabold mb-10">Important FAQ?</h1>
+                <div class="collapse collapse-arrow border py-6">
+                    <input type="radio" name="my-accordion-2"
+                        checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the DOM in JavaScript?</div>
+                    <div class="collapse-content">
+                        <p>The DOM (Document Object Model) is a programming interface that allows scripts like JavaScript to interact with and modify the structure and content of a web page. It represents the page as a hierarchical tree of objects, where each object corresponds to a part of the document such as elements, attributes, and text. JavaScript can use the DOM to dynamically change, add, or remove elements from the page.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow border py-6">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How can JavaScript interact with the DOM?</div>
+                    <div class="collapse-content">
+                        <p>JavaScript interacts with the DOM through built-in methods and properties provided by the browser. This allows developers to select elements, change their content or styles, add or remove elements, and respond to user interactions like clicks or keystrokes. The DOM serves as a bridge between the static HTML content and dynamic behavior driven by JavaScript.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow border py-6">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What is the relationship between HTML and the DOM?</div>
+                    <div class="collapse-content">
+                        <p>HTML is the markup language that defines the content and structure of a web page, while the DOM is an in-memory representation of that HTML content. When a browser loads an HTML document, it parses it and creates the DOM, which JavaScript can then manipulate to update the page in real-time. This means that while HTML is static, the DOM is dynamic and can be modified through scripts.</p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-arrow border py-6">
+                    <input type="radio" name="my-accordion-2"
+                        checked="checked" />
+                    <div class="collapse-title text-xl font-medium">Why is the DOM important in JavaScript development?</div>
+                    <div class="collapse-content">
+                        <p>The DOM is essential in JavaScript development because it enables interaction with the webpage after it has been loaded. It allows developers to create dynamic and interactive websites by modifying content, responding to user actions, updating styles, and much more—all without requiring a page reload. This capability is key to creating responsive, user-friendly web experiences.</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <script src="./js/home.js"></script>
+    </body>
+</html>
